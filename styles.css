@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
@@ -61,7 +61,7 @@ ul a {
 ul a:hover {
     color:  rgb(28, 117, 28);
 }
-ul a:active{
+ ul a:active{
     color: black;
 }
 .head-button{
@@ -460,7 +460,6 @@ height: 500px;
 }
 .section5{
     width: 100%;
-    min-height: 700px;
     height: auto;
     background-color: aliceblue;
     display: flex;
@@ -468,7 +467,7 @@ height: 500px;
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 20px;
-    gap: 20px;
+    gap: 60px;
 }
 .get-started-container{
      flex: 1 1 400px;
@@ -829,7 +828,7 @@ font-family: "Plus Jakarta Sans", sans-serif;
 }
 .team-div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .team-text {
     margin-left: 30px;
@@ -914,11 +913,7 @@ font-family: "Plus Jakarta Sans", sans-serif;
     display: flex;
     justify-content: space-between;
 }
-.blog-container2 {
-    flex: 1 1 320px;
-}
 .blog-image {
-    width: 370px;
     height: 250px;
     background-image: url(images/krakenimages-376KN_ISplE-unsplash.jpg);
     background-size: cover;
@@ -1116,29 +1111,32 @@ html{
   width: 300px; 
  
 }
-.section5{
-    flex-direction: column;
-    height: 400px;
+.get-started-image{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0%;
+  
 }
-.img{
-    display: none;
-} 
 .get-started-container{
-    margin-top: 40px;
-}     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+   
 .get-started-container h4{
   font-size: 1.5rem;
-}   
-.section6{
-    flex-direction: column;  
-    height: 950px;
+  text-align: center;
 }
+.get-started-container p{
+  text-align: center;
+}     
 .steps-div{
     flex-direction: column;  
 }
-.work-div {
-    margin-left: 70px;  
-}
+
 .steps-container {
     margin-top: 40px;
     margin-left: 30px;   
@@ -1147,12 +1145,13 @@ html{
 .first-span {
     text-align: center;   
 }
-.simple-container{
-    margin-top: 0%;
-    margin-left: 0%;
-    align-items: center;
-    text-align: center;
-}    
+    .simple-container {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 .simple-container h4 {
     font-size: 1.5rem;
 }
@@ -1169,22 +1168,13 @@ html{
 .section7 h1{
    font-size: 2rem;
 }
-.business-container{    
-    margin-left: 10px;
-}
+
 .business-picture1{
     width: 300px;
     height: 200px;
 
 }
-.peoples-div {
-flex-direction: column;
-} 
-.section9{
-    min-height: 2000px;
-    height: auto;
-    margin-top: 200px;
-}
+
 .team-div {
     flex-direction: column;   
 }
@@ -1200,9 +1190,10 @@ flex-direction: column;
    display: flex;
    justify-content: center;
    align-items: center;
+ 
 }
 .professional-text h4 {
-    margin-top: 20px;
+    margin-top: 20px;      
 }
 .view-button {
     margin-left: 40px;
@@ -1214,25 +1205,26 @@ flex-direction: column;
     height: 320px;
     width: 260px;   
 }
-.professional-text {
-    margin-left: 20px;
-}
-.blog-container{
-    flex-direction: column;
-}
+
+
 .section10{
     min-height: 1700px;
     height: auto;
 }
+.blog-container{
+    flex-direction: column;
+    align-items: center;
+}
+.team-text{
+    margin-left: 0%;
+    margin-top: 0%;
+}
 .blog-image{
-     width: 300px;
-    height: 200px;
+    height: 400px;
 }
-.blog-image-container{
-    flex-direction: column;   
-}
+
 .blog-container2 {
-    margin-left: 8.8px;
+  align-items: center;
 }
 .the-big-text{
     font-family: 1.5rem;
@@ -1269,6 +1261,10 @@ font-size: 0.8rem;
 }
 .bottom-links{
     font-size: 0.8rem;  
+}
+.footer-bottom{
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -1346,7 +1342,6 @@ ul{
 }
 
 
-
 .first-picture,
 .second-picture,
 .third-picture,
@@ -1390,22 +1385,6 @@ ul{
 
 /* SECTION 5 */
 
-.section5{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    padding: 40px 20px;
-}
-
-.get-started-container{
-    width: 45%;
-    margin-left: 0;
-}
-
-.img{
-    width: 45%;
-}
 
 /* SECTION 6 */
 
@@ -1417,12 +1396,11 @@ ul{
 }
 
 .simple-container{
-    width: 45%;
     margin-left: 0;
+    margin-top: 0px;
 }
 
 .steps-container{
-    width: 45%;
     margin-left: 0;
 }
 
@@ -1445,9 +1423,7 @@ ul{
     flex-wrap: wrap;
 }
 
-.business-container{
-    width: 45%;
-}
+
 
 .business-picture1{
     width: 100%;
@@ -1464,7 +1440,7 @@ ul{
 
 .team-div{
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
 }
 
@@ -1472,13 +1448,9 @@ ul{
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
-.proffesional-image{
-    width: 100%;
-    max-width: 300px;
-}
 
 /* BLOG */
 
@@ -1493,15 +1465,11 @@ ul{
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
-.blog-container2{
-    width: 45%;
-}
 
-.blog-image{
-    width: 100%;
-}
+
 
 /* FOOTER */
 
@@ -1523,6 +1491,10 @@ ul{
 .contact-div2{
     width: 30%;
     margin-left: 0;
+}
+.footer-bottom{
+    align-items: center;
+    justify-content: center;
 }
 
 /* GENERAL */

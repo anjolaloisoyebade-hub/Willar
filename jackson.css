@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #0F172A ;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+button {
+    padding: 15px 20px;
+    background-color: #E2E8F0;
+    font-size: 1rem;
+    color: black;
+    border: none;
+    font-family: "Inter", sans-serif;
+    position: static;
+    background-color: black;
+    animation: bounce 3s ease-in infinite;
+}
+@keyframes bounce {
+      0%   {background-color:  #0F172A ;   color: #E2E8F0;}
+  100% {background-color: #E2E8F0; color:#0F172A;}
+}
+button:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.the-first-head {
+    font-size: 2.5rem;
+    font-family: "Inter", sans-serif;
+    color: #E2E8F0;
+    cursor: pointer;
+}
+.the-first-head:hover {
+    color: wheat;
+}
+header ul{
+     display: flex;
+     list-style-type: none;
+}
+header ul a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: "Inter", sans-serif;
+    color: #E2E8F0; 
+}
+header ul a:hover {
+    color: wheat;
+}
+.sect1 {
+    width: 100%;
+}
+.div1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+.div1 ul{
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+.div1 span{
+    text-decoration: underline;
+    font-style: italic;
+    font-family: "Inter", sans-serif;
+    color:  #0F172A;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.div1 span:hover {
+    color:  rgb(26, 26, 231);
+}
+.sect2 {
+    width: 100%;
+}
+.sect2 h2 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 1.5rem;
+     font-family: "Montserrat", sans-serif;
+}
+.div3 {
+    display: flex;
+}
+.div3 audio{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.span-1{
+
+    font-style: italic;
+    font-family: "Inter", sans-serif;
+    color:  #0F172A;
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+.div2 {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.lyrics-container h6 {
+    margin-left: 0%;
+    font-style: italic;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+}
+.lyrics-container p{
+    margin-left: 0px;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+}
+
+
+
+@media (max-width: 1024px) {
+    header {
+        width: 100%;
+        height: 200px;
+        flex-direction: column;
+    }
+    .the-first-head {
+    font-size: 1.5rem;
+}
+header ul a {
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+.div1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 1rem; 
+}
+.sect2 h2 {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 1.5rem;
+     font-family: "Montserrat", sans-serif;
+}
+.div3 {
+   flex-direction: column;
+}
+.div3 audio{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+}  
